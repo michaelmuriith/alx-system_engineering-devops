@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Open the /etc/passwd file
+while IFS=: read -r username password userid groupname gecos homedir shell
+do
+  # Display the username, userid, and home directory path
+  echo "Username: $username"
+  echo "User ID: $userid"
+  echo "Home Directory: $homedir"
+  echo ""
+done < /etc/passwd
