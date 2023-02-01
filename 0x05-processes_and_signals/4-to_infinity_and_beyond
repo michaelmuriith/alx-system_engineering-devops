@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# Displays "To infinity and beyond" indefinitely
+# In between each loop, a sleep of 2
+
+count=1
+
+while [ $count -le 1 ]
+do
+printf "To infinity and beyond\n"
+count=$((count - 1))
+sleep 2
+done
+

@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+# automates pushing, save me the hassle of typing all these boring commands
+
+git add .
+git commit -m "$1"
+git push
+echo "pushed to remote with the commit message $1"

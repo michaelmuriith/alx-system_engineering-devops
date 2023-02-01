@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# kills the script 4-to_infinity_and_beyond without using kill or killall
+
+pkill -f 7-highlander
+

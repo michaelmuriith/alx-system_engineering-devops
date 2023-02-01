@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #will allow conectio os server
-ssh -i ~/.school ubuntu@35.243.128.200
+ssh -i ~/.school ubuntu@52.86.52.35
 
