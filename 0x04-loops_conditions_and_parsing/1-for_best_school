@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# Prints the text Best School 10 times
+# the syntax is for i in {start..stop}
+# start is where you want your loop to begin
+# stop is where you want your loop to stop at
+# A third and optional parameter is the step
+# for i in {start..stop..step} eg 0 2 4 6 etc
+# or we could do:
+# for (( c=1; c<=5; c++))
+
+for _ in {1..10}
+do
+echo "Best School"
+done
+

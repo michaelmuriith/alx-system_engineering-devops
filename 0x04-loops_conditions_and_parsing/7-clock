@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+# Prints a clock displaying time for 12 hours and 59 minutes
+
+hour=0
+
+while [ $hour -le 12 ]
+do
+echo "Hour: $hour"
+minute=1
+while [ $minute -lt 60 ]
+do
+if [ $minute -eq 59 ];
+then
+hour=$((hour + 1))
+fi
+echo "$minute"
+minute=$((minute + 1))
+done
+done
+

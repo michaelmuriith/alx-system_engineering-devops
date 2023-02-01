@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# Prints Best School 10 times but for the 9th time, it prints hi in next line
+
+counter=1
+
+while [ $counter -le 10 ]
+do
+if [ $counter -eq 9 ];
+then
+echo "Best School"
+echo "Hi"
+else
+echo "Best School"
+fi
+counter=$((counter + 1))
+done
+

@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+# FizzBuzz between 1 and 100
+# Display FizzBuzz when the number is a multiple of 3 and 5
+# Displays Fizz when the number is a multiple of 3
+# Displays Buzz when the number is a multiple of 5
+# Otherwise displays the number
+
+number=1
+
+while [ $number -le 100 ]
+do
+if (( number % 3 == 0  && number % 5 == 0 ));
+then echo "FizzBuzz"
+elif (( number % 3 == 0 ));
+then echo "Fizz"
+elif (( number % 5 == 0 ));
+then echo "Buzz"
+else echo "$number"
+fi
+number=$((number + 1))
+done
+
